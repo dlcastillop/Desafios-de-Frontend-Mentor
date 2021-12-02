@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+span {
+    font-weight: 400;
+}
+
+#background {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+#container {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    width: 25rem;
+}
+
+#profile {
+    border-radius: 50%;
+    bottom: 3rem;
+    z-index: 1;
+}
+
+#sm_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#top {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.engagement p {
+    font-size: 0.85rem;
+}
+
+.up {
+    bottom: 3rem;
+    position: relative;
+}

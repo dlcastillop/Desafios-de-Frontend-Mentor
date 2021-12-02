@@ -1,0 +1,106 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-family: 'Arvo', serif;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    font-family: 'Arvo', serif;
+    font-size: 0.9375rem;
+    height: 2rem;
+    margin-top: 3rem;
+    width: 8rem;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    width: 50rem;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.875rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+section {
+    padding: 3rem;
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury button:hover, #sedans button:hover, #suvs button:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 818px) {
+    button {
+        margin-top: 1rem;
+    }
+
+    div {
+        flex-direction: column;
+        width: 20rem;
+    }
+
+    #luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #sedans {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+}

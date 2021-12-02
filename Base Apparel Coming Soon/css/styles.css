@@ -1,0 +1,86 @@
+body {
+    background-color: hsl(0, 100%, 98%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    background-color: hsl(0, 36%, 70%);
+    border-color: hsl(0, 36%, 70%);
+    border-radius: 10px;
+    height: 2.5rem;
+    margin-left: 1rem;
+    width: 2.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+}
+
+input {
+    border-color: hsl(0, 36%, 70%);
+    border-radius: 10px;
+    height: 2.5rem;
+    padding-left: 1rem;
+    width: 15rem;
+}
+
+p {
+    line-height: 1.7rem;
+    color: hsl(0, 36%, 70%);
+}
+
+span {
+    color: hsl(0, 36%, 70%);
+}
+
+.margen {
+    margin-top: 2rem;
+}
+
+#parrafo {
+    color: hsl(0, 93%, 68%);
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    h1, p {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    img.ver {
+        display: inline;
+    }
+
+    #logo {
+        width: 10rem;
+    }
+
+    #mujer {
+        display: none;
+    }
+
+    #responsive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.ver {
+    display: none;
+}

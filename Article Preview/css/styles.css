@@ -1,0 +1,102 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    color: hsl(214, 17%, 51%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(212, 23%, 69%);
+    font-size: 0.8125rem;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}
+
+span {
+    color: hsl(214, 17%, 51%);
+    font-weight: 700;
+}
+
+.contenedor {
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    width: 60rem;
+}
+
+.contenido {
+    margin-left: 2.5rem;
+}
+
+#avatar-autor {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+#big-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#imagen-principal {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 22rem;
+    width: 25rem;
+}
+
+#share {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 5px;
+    height: 2.8rem;
+    position: absolute;
+    padding-top: 0.6rem;
+    width: 14rem;
+    z-index: 1;
+}
+
+#share * {
+    margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    h1, p, section {
+        margin-top: 1.5rem;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        width: 30rem;
+    }
+
+    .contenido {
+        margin-left: 0;
+    }
+
+    #imagen-principal {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+        width: 30rem;
+    }
+}
+
+
+/* Se usa en el JS */
+.visualizar {
+    display: none;
+}

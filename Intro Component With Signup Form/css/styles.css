@@ -1,0 +1,140 @@
+a {
+    color: hsl(0, 100%, 74%);
+}
+
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(../images/bg-intro-desktop.png);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 3rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    width: 30rem;
+}
+
+button:hover {
+    background-color: hsl(154, 93%, 70%);
+    border-color: hsl(154, 93%, 70%);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+input {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    height: 3rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    padding-left: 1rem;
+    width: 30rem;
+}
+
+p {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+span {
+    font-weight: 400;
+}
+
+.parrafos {
+    color: hsl(0, 100%, 74%);
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 0.25rem;
+    text-align: right;
+    width: 30rem;
+}
+
+.error {
+    border-color: hsl(0, 100%, 74%);
+}
+
+.ver {
+    display: none;
+}
+
+#centrar {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor {
+    margin-top: 1rem;
+}
+
+#formulario {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 0.25rem;
+    width: 35rem;
+}
+
+#precio {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    height: 3rem;
+    padding-top: 0.8rem;
+    text-align: center;
+    width: 35rem;
+}
+
+#terminos {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    header {
+        text-align: center;
+    }
+
+    #precio, #formulario {
+        margin: auto;
+    }
+
+    #precio {
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-image: url(../images/bg-intro-mobile.png);
+    }
+
+    #precio, #formulario {
+        width: 100%;
+    }
+
+    input, .parrafos {
+        width: 90%;
+    }
+
+    #centrar {
+        margin: auto;
+        width: 90%;
+    }
+}
