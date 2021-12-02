@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    height: 3rem;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+header h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+span {
+    font-size: 2rem;
+}
+
+#contenedor {
+    width: 40rem;
+}
+
+#precio {
+    background-color: hsl(179, 62%, 43%);
+}
+
+#why-us {
+    background-color: hsl(179, 41%, 55%);
+}
+
+#why-us h2 {
+    margin-bottom: 1.5rem;
+}
+
+#why-us p {
+    margin-bottom: 0;
+}
+
+.gris {
+    color: hsl(218, 22%, 67%);
+}
+
+.padding {
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 575px) {
+    #contenedor {
+        width: 20rem;
+    }
+}
